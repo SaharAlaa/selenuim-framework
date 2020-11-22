@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.EmailFriendTest">
+        <methods>
+          <include name="UserCanRegisterSuccessflly"/>
+          <include name="stopDriver"/>
+          <include name="userCanSearchUsingAutoSugesst"/>
+          <include name="startDriver"/>
+          <include name="UserCanEmailAfreinSuccessfully"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.EmailFriendTest -->
+      <class name="Tests.ContactUsTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="UserCanSendInquirySuccessfully"/>
+          <include name="startDriver"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.ContactUsTest -->
+      <class name="Tests.AddReviewTest">
+        <methods>
+          <include name="userCanSearchUsingAutoSugesst"/>
+          <include name="stopDriver"/>
+          <include name="UserCanRegisterSuccessflly"/>
+          <include name="startDriver"/>
+          <include name="UserCanAddReviewSucessfully"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.AddReviewTest -->
+      <class name="Tests.ProductMoveMenueTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="UserCanSelectSubCategoryFromMainMenue"/>
+          <include name="startDriver"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.ProductMoveMenueTest -->
+      <class name="Tests.AddProductToShopingCartTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="UserCanUpdateShoppingCartSucessfully"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.AddProductToShopingCartTest -->
+      <class name="Tests.ChangeCurrencyTest">
+        <methods>
+          <include name="UserCanChangeCurrencySuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.ChangeCurrencyTest -->
+      <class name="Tests.SearchProductTest">
+        <methods>
+          <include name="UserCanSearchSucessfully"/>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.SearchProductTest -->
+      <class name="Tests.RegisteredUserCheckOutTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="UserCanAddProductToShoppingCard"/>
+          <include name="userCanSearchUsingAutoSugesst"/>
+          <include name="UserCanRegisterSuccessflly"/>
+          <include name="startDriver"/>
+          <include name="UserCanUpdateShoppingCartSucessfully"/>
+          <include name="UserCanCheckOutSuccessfully"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.RegisteredUserCheckOutTest -->
+      <class name="Tests.SearchProductUsingAutoSuggestTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="userCanSearchUsingAutoSugesst"/>
+          <include name="screenShotOnFailure"/>
+        </methods>
+      </class> <!-- Tests.SearchProductUsingAutoSuggestTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

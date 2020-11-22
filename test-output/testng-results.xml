@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24142" started-at="2020-11-19T12:56:34 EET" finished-at="2020-11-19T12:56:58 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24142" started-at="2020-11-19T12:56:34 EET" finished-at="2020-11-19T12:56:58 EET">
+      <class name="Tests.AddProductToShopingCartTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="startDriver" is-config="true" duration-ms="14814" started-at="2020-11-19T12:56:19 EET" finished-at="2020-11-19T12:56:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="FAIL" signature="userCanSearchUsingAutoSugesst()[pri:1, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="userCanSearchUsingAutoSugesst" duration-ms="11264" started-at="2020-11-19T12:56:34 EET" finished-at="2020-11-19T12:56:45 EET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Tests.AddProductToShopingCartTest.userCanSearchUsingAutoSugesst(AddProductToShopingCartTest.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSearchUsingAutoSugesst -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="screenShotOnFailure" is-config="true" duration-ms="344" started-at="2020-11-19T12:56:46 EET" finished-at="2020-11-19T12:56:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanSearchUsingAutoSugesst status=FAILURE method=AddProductToShopingCartTest.userCanSearchUsingAutoSugesst()[pri:1, instance:Tests.AddProductToShopingCartTest@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="UserCanAddProductToShoppingCard()[pri:2, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="UserCanAddProductToShoppingCard" duration-ms="129" started-at="2020-11-19T12:56:46 EET" finished-at="2020-11-19T12:56:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductToShoppingCard -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="screenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-11-19T12:56:46 EET" finished-at="2020-11-19T12:56:46 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddProductToShoppingCard status=SUCCESS method=AddProductToShopingCartTest.UserCanAddProductToShoppingCard()[pri:2, instance:Tests.AddProductToShopingCartTest@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="SKIP" signature="UserCanUpdateShoppingCartSucessfully()[pri:3, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="UserCanUpdateShoppingCartSucessfully" duration-ms="12088" started-at="2020-11-19T12:56:46 EET" finished-at="2020-11-19T12:56:58 EET">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skip this test ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skip this test 
+at Tests.AddProductToShopingCartTest.UserCanUpdateShoppingCartSucessfully(AddProductToShopingCartTest.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanUpdateShoppingCartSucessfully -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="screenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-11-19T12:56:58 EET" finished-at="2020-11-19T12:56:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanUpdateShoppingCartSucessfully status=SKIP method=AddProductToShopingCartTest.UserCanUpdateShoppingCartSucessfully()[pri:3, instance:Tests.AddProductToShopingCartTest@460d0a57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Tests.AddProductToShopingCartTest@460d0a57]" name="stopDriver" is-config="true" duration-ms="1" started-at="2020-11-19T12:56:58 EET" finished-at="2020-11-19T12:56:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.AddProductToShopingCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
